@@ -1,53 +1,3 @@
-Ashlynn Shumer:
-	<!DOCTYPE html>
-<title>"Ashlynn Shumer Resume"</title>  
-</head>
-<body>
-  <!-- I built this myself! -->
-<title><Strong></Strong></title>
-<h1>Ashlynn Shumer</h1>
-
-    <!-- Contact details -->
-    <ul>
-      <li><a href=" ashumer312@gmail.com"</a></li>
-      <li><a href="https://twitter.com/ShumerAshlynn">Twitter</a></li>
-      <li><a href="https://github.com/ashumer312">Github</a></li>
-    </ul>
-
- <! Title & mission statement -->
-    <strong>Sports Reporter
-    </strong>
-    <p>
-        Utilize a professional broadcast camera to shoot highlights of Maryland sporting events and record standups
-    </p>
-
-    <!-- Experience -->
-    <h2>Experience</h2>
-    <h3>The Campus Trainer</h3>
-    <h4>Staff Writer</h4>
-    <h5>March 2022 - Present</h5>
-    <p>
-        Attend weekly meetings with the team to discuss and pitch relevant articles and stories about popular culture and campus events,Interview students and other sources to enrich article content
-    </p>
-
-    <h3>TWENTY2 MEDIA</h3>
-    <h4>Staff Writer</h4>
-    <h5>  June 2022— August 2022
-    </h5>
-    <p>
-        Attend weekly meetings with EOC to pitch new article ideas and discuss press releases
-        Brainstorm questions to ask content creators in hands on interviews
-        Write and edit articles and use SquareSpace to organize content        
-    </p>
-
-    <!-- Education -->
-    <h2>Education:</h2>
-    <ul>
-      <li UNIVERSITY OF MARYLAND, COLLEGE PARK</li>
-      <li Expected- May 2024 	      </li>
-
-Matthew:
-	/* default font for the body and all header, paragraph, list and list item elements */
 body, h1, h2, h3, h4, h5, p, ul, li {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
@@ -56,11 +6,15 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 }
 
 /* banner name at top */
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* photo */
@@ -70,36 +24,79 @@ img {
 }
 
 /* title */
-strong {
-  font-size: 1.5em;
-  color: #33485e;
-  text-transform: uppercase;
+#title {
+  font-weight: 600;
+  text-align: center;
 }
 
 /* section titles */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
   font-weight: 400;
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* job titles */
-h3 {
+.jobtitle {
   font-size: 1.5em;
   font-weight: 600;
 }
 
 /* job organization */
-h4 {
-  font-size: 1.5em;
-  font-weight: 400;
+.organization {
+  font-size: 1.25em;
 }
 
 /* job dates */
-h5 {
+.date {
   font-size: 1em;
   font-weight: 400;
   font-style: italic;
+  margin: 2px 0 0 0;
+}
+
+/* mission statement */
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto 30px auto;
+}
+
+/* container */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/* unordered list */
+.menu {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+/* education */
+#degrees {
+  margin: 5px 0 0 0;
+}
+
+/* skills */
+#do {
+  margin: 5px 0 0 0;
+}
+
+/* descriptions */
+.description {
+  margin: 10px 0 10px 0;
 }
