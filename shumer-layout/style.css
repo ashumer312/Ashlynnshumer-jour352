@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 13px;
+  }
+  
+  h1 {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  #masthead {
+    text-align: center;
+  }
+  
+  #masthead img {
+    width: 100%;
+  }
+  
+  #masthead h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #masthead p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  #images {
+    text-align: center;
+  }
+  
+  #images img {
+    width: 100%;
+  }
+  
+  #images p {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #graphic {
+    text-align: center;
+  }
+  
+  #graphic img {
+    width: 100%;
+  }
+  
+  #graphic p {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  blockquote {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #links {
+    font-style: italic;
+    text-align: center;
+  }
